@@ -15,6 +15,8 @@
 <meta name="viewport"
 	content="width=device-width, initial-scale=1, user-scalable=no" />
 <link rel="stylesheet" href="${cpath}/resources/css/main.css" />
+<head profile="http://www.w3.org/2005/10/profile">
+
 </head>
 <body class="is-preload homepage">
 	<div id="page-wrapper">
