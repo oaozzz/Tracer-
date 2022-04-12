@@ -28,7 +28,7 @@
 				<!-- Logo -->
 				<div id="logo">
 					<h1>
-						<a href="index.html">Tracer</a>
+						<a href="main.do">Tracer</a>
 					</h1>
 					<span>by exemplary citizen</span>
 				</div>
@@ -36,8 +36,9 @@
 				<!-- Nav -->
 				<nav id="nav">
 					<ul>
-						<li class="current"><a href="index.html">Welcome</a></li>
-						<li><a href="<c:url value='/Login.jsp/${vo.idx}'/>" class="btn btn-info btn-sm" role="button">Login</a></li>
+						<li class="current"><a href="main.do">Welcome</a></li>
+					<%-- 	<li><a href="<c:url value='/Login.jsp/${vo.idx}'/>" class="btn btn-info btn-sm" role="button">Login</a></li> --%>
+						<li><a href="Login.do" class="btn btn-info btn-sm" role="button">Login</a></li>
 					</ul>
 				</nav>
 

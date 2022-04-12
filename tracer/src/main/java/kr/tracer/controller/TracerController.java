@@ -23,29 +23,23 @@ import kr.tracer.entity.Admin;
 import kr.tracer.mapper.AdminMapper;
 
 @Controller
-public class AdminController {
+public class TracerController {
 
 	@Autowired
-	private AdminMapper adminMapper;
+	private TracerController tracerMapper;
 	
-	@GetMapping("/main.do")
-	public String main() {
+	@RequestMapping("/main.do")
+	public String main(Model model) {
 		return "main";
 	}
 	
-	@PostMapping("/login.do")
-	public String login(Admin avo, HttpServletRequest request) {
-		Admin theVo = adminMapper.adminLogin(avo);
-		if (theVo != null) {
-			HttpSession session = request.getSession();
-			session.setAttribute("avo", theVo);
-		}
-		return "redirect:/main.do";
+	@RequestMapping("/Login.do")
+	public String login(Admin avo) {
+		return "redirect:/main";
+	
 	}
-	@PostMapping("/logout.do")
-	public String logout(HttpServletRequest request) {
-		HttpSession session = request.getSession();
-		session.invalidate();
-		return "redirect:/main.do";
-	}
+	
+	
+
+
 }
