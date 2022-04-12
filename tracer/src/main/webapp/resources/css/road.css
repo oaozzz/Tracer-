@@ -1,0 +1,28 @@
+@import url("fontawesome-all.min.css");
+
+@import
+	url("https://fonts.googleapis.com/css?family=Oleo+Script:400|Open+Sans:300,300italic,600,600italic,800")
+	;
+	
+	
+	
+body {
+	background: cadetblue;
+}
+
+.box {
+    background: #fff;
+    border-radius: 6px;
+    box-shadow: 0px 3px 0px 0px rgb(0 0 0 / 5%);
+    padding: 2em;
+    width: 95%;
+    height: 760px;
+    margin-left: 35px;
+}
+
+
+#banner {
+    position: relative;
+    padding: 4.5em;
+}
+
