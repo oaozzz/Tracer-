@@ -1,4 +1,4 @@
-<%@page import="kr.board.entity.Board"%>
+<%@page import="kr.tracer.entity.Pothole"%>
 <%@page import="java.util.List"%>
 <%@ page language="java" contentType="text/html; charset=UTF-8"
 	pageEncoding="UTF-8"%>
@@ -44,7 +44,7 @@
 			<!-- Logo -->
 			<div id="logo">
 				<h1>
-					<a href="index.html">Tracer</a>
+					<a href="main.do">Tracer</a>
 				</h1>
 				<span>by exemplary citizen</span>
 			</div>

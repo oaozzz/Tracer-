@@ -14,7 +14,7 @@
 <meta charset="utf-8" />
 <meta name="viewport"
 	content="width=device-width, initial-scale=1, user-scalable=no" />
-<link rel="stylesheet" href="${cpath}/resources/css/main.css" />
+<link rel="stylesheet" href="${cpath}/resources/css/main4.css" />
 <head profile="http://www.w3.org/2005/10/profile">
 
 </head>
@@ -55,8 +55,8 @@
 					</div>
 					<div class="col-5 col-12-medium">
 						<ul>
-							<li><a href="#" class="button large icon solid fa-arrow-circle-right">포트홀</a></li>
-							<li><a href="#" class="button large icon solid fa-arrow-circle-right">체납차량</a></li>
+							<li><a href="Car.do" class="button large icon solid fa-arrow-circle-right">체납차량</a></li>
+							<li><a href="Pothole.do" class="button large icon solid fa-arrow-circle-right">포트홀</a></li>
 						</ul>
 					</div>
 				</div>

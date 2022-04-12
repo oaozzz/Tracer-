@@ -20,13 +20,17 @@ import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.ResponseBody;
 
 import kr.tracer.entity.Admin;
+import kr.tracer.entity.Car;
+import kr.tracer.entity.Pothole;
 import kr.tracer.mapper.AdminMapper;
+import kr.tracer.mapper.CarMapper;
 
 @Controller
 public class TracerController {
 
 	@Autowired
-	private TracerController tracerMapper;
+	private TracerController AdminMapper;
+	private TracerController CarMapper;
 	
 	@RequestMapping("/main.do")
 	public String main(Model model) {
@@ -35,10 +39,18 @@ public class TracerController {
 	
 	@RequestMapping("/Login.do")
 	public String login(Admin avo) {
-		return "redirect:/main";
+		return "Login";
 	
 	}
 	
+	@RequestMapping("/Car.do")
+	public String car(Car cvo) {
+		return "Car";
+	}
+	@RequestMapping("/Pothole.do")
+	public String pothole(Pothole pvo) {
+		return "Pothole";
+	}
 	
 
 
