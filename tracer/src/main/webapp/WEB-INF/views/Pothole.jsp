@@ -40,7 +40,7 @@
 </head>
 <body style="background: coral;">
 	<div id="header-wrapper">
-		<header id="header" class="container">
+		<header id="header" class="tainer">
 			<!-- Logo -->
 			<div id="logo">
 				<h1>
@@ -54,7 +54,7 @@
 				<ul>
 					<li class="current"><a href="index.html">Welcome</a></li>
 					<li><a href="<c:url value='/Login.jsp/${vo.idx}'/>"
-						class="btn btn-info btn-sm" role="button">Login</a></li>
+						class="btn btn1 btn-sm" role="button">Login</a></li>
 				</ul>
 			</nav>
 		</header>
@@ -67,57 +67,54 @@
 						<select>
 							<option value="">지역별</option>
 							<option value="">날짜별</option>
-						</select>
-						<span class="searchb"><input type="search"><button>검색</button></span>
+						</select> <span class="searchb"><input type="search">&nbsp;&nbsp;
+							<button>검색</button></span>
 					</div>
-					<div class="aa">
-						<a href=""><img src="resources/images/dddd.png" width="100%"
-							height="175px">
-							<p>사진</p></a>
-					</div>
-					<div class="aa">
-						<a href=""><img src="resources/images/dddd.png" width="100%"
-							height="175px">
-							<p>사진</p></a>
-					</div>
-					<div class="aa">
-						<a href=""><img src="resources/images/dddd.png" width="100%"
-							height="175px">
-							<p>사진</p></a>
-					</div>
+					<div class="pothbox">
+						<div class="aa">
+							<a href=""><img id="potholeimg"
+								src="resources/images/dddd.png">
+								<p>사진</p></a>
+						</div>
+						<div class="aa">
+							<a href=""><img id="potholeimg"
+								src="resources/images/dddd.png">
+								<p>사진</p></a>
+						</div>
+						<div class="aa">
+							<a href=""><img id="potholeimg"
+								src="resources/images/dddd.png">
+								<p>사진</p></a>
+						</div>
 
-					<div class="aa">
-						<a href=""><img src="resources/images/dddd.png" width="100%"
-							height="175px">
-							<p>사진</p></a>
-					</div>
-					<div class="aa">
-						<a href=""><img src="resources/images/dddd.png" width="100%"
-							height="175px">
-							<p>사진</p></a>
-					</div>
-					<div class="aa">
-						<a href=""><img src="resources/images/dddd.png" width="100%"
-							height="175px">
-							<p>사진</p></a>
-					</div>
+						<div class="aa">
+							<a href=""><img id="potholeimg"
+								src="resources/images/dddd.png">
+								<p>사진</p></a>
+						</div>
+						<div class="aa">
+							<a href=""><img id="potholeimg"
+								src="resources/images/dddd.png">
+								<p>사진</p></a>
+						</div>
+						<div class="aa">
+							<a href=""><img id="potholeimg"
+								src="resources/images/dddd.png">
+								<p>사진</p></a>
+						</div>
 
-					<div class="aa">
-						<a href=""><img src="resources/images/dddd.png" width="100%"
-							height="175px">
-							<p>사진</p></a>
+						<div class="aa">
+							<a href=""><img id="potholeimg"
+								src="resources/images/dddd.png">
+								<p>사진</p></a>
+						</div>
+						<div class="aa">
+							<a href=""><img id="potholeimg"
+								src="resources/images/dddd.png">
+								<p>사진</p></a>
+						</div>
 					</div>
-					<div class="aa">
-						<a href=""><img src="resources/images/dddd.png" width="100%"
-							height="175px">
-							<p>사진</p></a>
-					</div>
-					<div class="aa">
-						<a href=""><img src="resources/images/dddd.png" width="100%"
-							height="175px">
-							<p>사진</p></a>
-					</div>
-				</div> 
+				</div>
 			</div>
 		</nav>
 </body>

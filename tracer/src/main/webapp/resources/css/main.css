@@ -5,27 +5,45 @@
 	;
 
 #header-wrapper {
-	padding: 4.5em 0 3em 0;
+	padding: 2em 0 3em 0;
+}
+
+@media ( min-width : 1200px) header#header {
+	width
+	:
+	 
+	1166px
+	;
+	
+
+}
+
+#logo {
+	margin-bottom: 26px;
 }
 
 #nav ul li.current a {
 	background: #444;
 	color: #fff;
 }
-#nav{
-    position: absolute;
-    right: 0;
-    top: 0;
-    font-size: 0.9em;
+
+#nav {
+	position: absolute;
+	right: 0;
+	top: 0;
+	font-size: 0.9em;
 }
+
 #nav ul li {
-    float: left;
-    line-height: 4.5em;
-    padding-left: 1.5em;
+	float: left;
+	line-height: 4.5em;
+	padding-left: 1.5em;
 }
+
 #nav ul {
-    list-style: none;
-    padding-left: 0;
+	list-style: none;
+	padding-left: 0;
+	margin-top: 29px;
 }
 
 #nav ul li a, #nav ul li span {
@@ -35,41 +53,42 @@
 	border-radius: 6px;
 	padding: 0.5em 1em 0.5em 1em;
 }
+
 #header {
     position: relative;
+    margin-left: 4%;
+    margin-right: 4%;
 }
 
-.container {
-    margin: 0 auto;
-    max-width: 100%;
-    /* width: 1400px; */
+h1 a {
+    color: #ffffff;
+    text-decoration: none;
 }
+
+.btn1 {
+    color: #fff;
+    background-color: #9c9c9c;
+}
+
 #logo h1 {
-	background: #ff4486;
-	color: #fff;
-	border-radius: 6px;
-	font-family: 'Oleo Script', serif;
-	font-weight: 400;
-	padding: 0.25em 0.2em 0.25em 0.2em;
-	font-size: 3.25em;
-	letter-spacing: 0.05em;
-	display: inline-block;
-	vertical-align: middle;
+    background: #0b487b;
+    color: #ffffff;
+    border-radius: 6px;
+    font-family: 'Oleo Script', serif;
+    font-weight: 400;
+    padding: 0.2em 0.2em 0.25em 0.2em;
+    font-size: 3.25em;
+    height: 61px;
+    letter-spacing: 0.05em;
+    display: inline-block;
+    vertical-align: middle;
+    text-decoration: none;
 }
 
-
-.logintop{
-	text-align:center;
+.logintop {
+	text-align: center;
 }
 
-
-#banner {
-    position: relative;
-    padding: 4.5em;
-}
-
-
-
-#inner{
+#inner {
 	text-align: right;
 }
