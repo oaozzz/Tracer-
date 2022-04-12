@@ -44,7 +44,7 @@
 			<!-- Logo -->
 			<div id="logo">
 				<h1>
-					<a href="main.do">Tracer</a>
+					<a href="index.html">Tracer</a>
 				</h1>
 				<span>by exemplary citizen</span>
 			</div>
@@ -63,11 +63,61 @@
 		<nav>
 			<div id="banner-wrapper">
 				<div id="banner" class="box">
-					<div class="row">
-						
-						
+					<div class="solt">
+						<select>
+							<option value="">지역별</option>
+							<option value="">날짜별</option>
+						</select>
+						<span class="searchb"><input type="search"><button>검색</button></span>
 					</div>
-				</div>
+					<div class="aa">
+						<a href=""><img src="resources/images/dddd.png" width="100%"
+							height="175px">
+							<p>사진</p></a>
+					</div>
+					<div class="aa">
+						<a href=""><img src="resources/images/dddd.png" width="100%"
+							height="175px">
+							<p>사진</p></a>
+					</div>
+					<div class="aa">
+						<a href=""><img src="resources/images/dddd.png" width="100%"
+							height="175px">
+							<p>사진</p></a>
+					</div>
+
+					<div class="aa">
+						<a href=""><img src="resources/images/dddd.png" width="100%"
+							height="175px">
+							<p>사진</p></a>
+					</div>
+					<div class="aa">
+						<a href=""><img src="resources/images/dddd.png" width="100%"
+							height="175px">
+							<p>사진</p></a>
+					</div>
+					<div class="aa">
+						<a href=""><img src="resources/images/dddd.png" width="100%"
+							height="175px">
+							<p>사진</p></a>
+					</div>
+
+					<div class="aa">
+						<a href=""><img src="resources/images/dddd.png" width="100%"
+							height="175px">
+							<p>사진</p></a>
+					</div>
+					<div class="aa">
+						<a href=""><img src="resources/images/dddd.png" width="100%"
+							height="175px">
+							<p>사진</p></a>
+					</div>
+					<div class="aa">
+						<a href=""><img src="resources/images/dddd.png" width="100%"
+							height="175px">
+							<p>사진</p></a>
+					</div>
+				</div> 
 			</div>
 		</nav>
 </body>
