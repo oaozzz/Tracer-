@@ -4,9 +4,21 @@
   "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
 <mapper namespace="kr.tracer.mapper.CarMapper">
 
+	<select id="carList" resultType="kr.tracer.entity.Car">
+		select * from t_board
+	</select>
 
+	<insert id="carInsert" parameterType="kr.tracer.entity.Car">
+		insert into t_board(article_seq, mb_id, default_name, plate_num, default_money, default_year, report_num, 
+		plate_location, admin_location, article_file1, article_file2, article_date)
+		values(t_board.article_seq.nextval, #{mb_id}, #{default_name},#{plate_num}, #{default_money},#{default_year},
+		 #{report_num},#{plate_location},#{admin_location},#{article_file1}, #{article_file2}, #{article_date})
+		
+	</insert>
 
-
-
+	<select id="carContent" resultType="kr.tracer.entity.Car"
+		parameterType="int">
+		select * from t_board where article_seq=#{}
+	</select>
 
 </mapper>
