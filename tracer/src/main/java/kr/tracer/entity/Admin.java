@@ -2,32 +2,32 @@ package kr.tracer.entity;
 
 public class Admin {
 
-	private String ad_id;
-	private String ad_pw;
-	private String ad_name;
-
-	public String getAd_id() {
-		return ad_id;
+	private String member_id;
+	private String member_pw;
+	private String product_code;
+	
+	
+	public String getMember_id() {
+		return member_id;
 	}
-
-	public void setAd_id(String ad_id) {
-		this.ad_id = ad_id;
+	public void setMember_id(String member_id) {
+		this.member_id = member_id;
 	}
-
-	public String getAd_pw() {
-		return ad_pw;
+	public String getMember_pw() {
+		return member_pw;
 	}
-
-	public void setAd_pw(String ad_pw) {
-		this.ad_pw = ad_pw;
+	public void setMember_pw(String member_pw) {
+		this.member_pw = member_pw;
 	}
-
-	public String getAd_name() {
-		return ad_name;
+	public String getProduct_code() {
+		return product_code;
 	}
-
-	public void setAd_name(String ad_name) {
-		this.ad_name = ad_name;
+	public void setProduct_code(String product_code) {
+		this.product_code = product_code;
 	}
+	
+	
+
+
 
 }

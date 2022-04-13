@@ -5,27 +5,27 @@
 	;
 
 #header-wrapper {
-	padding: 2em 0 3em 0;
+	padding: 2em 0 0em 0;
 }
 
-@media ( min-width : 1200px) header#header {
-	width
-	
-	
-	
-	
-	:
-	
-	
-	 
-	
-	
-	1166px
-	
-	
-	
-	
-	;
+.box1 {
+    background: floralwhite;
+    border-radius: 6px;
+    box-shadow: 0px 3px 0px 0px rgb(0 0 0 / 5%);
+    padding: 2em;
+    width: 90%;
+    height: 600px;
+    margin: auto;
+    display: table;
+}
+.mainW {
+    height: 395px;
+}
+
+.mainW2 {
+    margin-top: 230px;
+    width: 55%;
+    text-align: center;
 }
 
 #logo {
@@ -43,6 +43,7 @@
 	top: 0;
 	font-size: 0.9em;
 }
+
 
 #nav ul li {
 	float: left;
@@ -108,41 +109,86 @@ h1 a {
 }
 
 div#banner_login {
-	position: relative;
-	padding: 1.5em;
-	height: 584px;
-	width: 360px;
-	display: flex;
-	margin: auto;
-	border-radius: 33px;
-	background: whitesmoke;
+    position: relative;
+    margin-top: 100px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 1.5em;
+    height: 369px;
+    width: 360px;
+    display: flex;
+    /* margin: auto; */
+    border-radius: 33px;
+    background: darkgrey;
 }
+
+
 
 form#loginform {
 	padding-left: 76px;
-	padding-top: 142px;
+	padding-top: 58px;
 }
 
 #loginbtn {
-	background: #0B487B;
-	color: #FFFFFF;
-	padding: 7.2px 14.4px;
-	border-radius: 6px;
-	position: absolute;
-	left: 153px;
-	bottom: 96px;
-	width: 110px;
-	text-align: center;
-	right: 121px;
-	height: 40px;
-	font-size: 19px;
+    background: #0B487B;
+    color: #FFFFFF;
+    padding: 7.2px 14.4px;
+    border-radius: 6px;
+    position: absolute;
+    left: 153px;
+    bottom: 62px;
+    width: 110px;
+    font-size: 19px;
 }
 
 #banner {
-	position: absoltue;
+	
 	padding-top: 33px;
-	padding-left: 151px;
-	height: 584px;
+}
+
+#go {
+    float: right;
+    margin-bottom: 11px;
+    margin-left: 50px;
+}
+#go1 {
+    float: right;
+    margin-bottom: 11px;
+    margin-left: 65px;
+}
+
+#picture{
+	    width: 900px;
+    height: 600px;
+	border-radius: 46px;
+}
+
+#dororo {
+    position: absolute;
+    width: 269px;
+    text-align: end;
+    font-size: 53px;
+    color: white;
+    margin-top: 20px;
+}
+
+#dororo1{
+    width: 900px;
+    height: 600px;
+    position: absolute;
+    border-radius: 46px;
+    /* background: black; */
+    background-color: rgba(0, 0, 0, 0.2);
+}
+#car1 {
+    height: 225px;
+    width: 700px;
+    float: left;
+    margin-top: 89px;
+}
+#car2 {
+    display: grid;
+        vertical-align: middle;
 }
 
 span {
@@ -155,18 +201,28 @@ span {
 	bottom: 11px;
 	font-size: 17px;
 }
+h2 span {
+	font-weight: 700;
+	line-height: 4.5em;
+	letter-spacing: 0.025em;
+	vertical-align: middle;
+	margin: 0 0 0 1.25em;
+	position: initial;
+	bottom: 11px;
+	font-size: 17px;
+}
 
 .row {
 	padding-top: 60px;
-	background: whitesmoke;
+	background: floralwhite;
 	border-radius: 6px;
-	width: 1600px;
+	width: 91%;
 	height: 516px;
 }
 
 h2 {
-	font-size: 3.5em;
-	padding-left: 100px;
+    font-size: 4.7em;
+    width: 155%;
 }
 
 label {
@@ -206,7 +262,7 @@ button#carbtn {
 	border-radius: 8px;
 	font-size: 34px;
 	position: absolute;
-	right: 321px;
+	right: 178px;
 	bottom: 418px;
 }
 
@@ -218,7 +274,7 @@ button#potholebtn {
 	border-radius: 8px;
 	font-size: 34px;
 	position: absolute;
-	right: 321px;
+	right: 178px;
 	bottom: 221px;
 }
 

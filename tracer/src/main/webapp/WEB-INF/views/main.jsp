@@ -48,25 +48,32 @@
 
 		<!-- Banner -->
 		<div id="banner-wrapper">
-			<div id="banner" class="box container">
-				<div class="row">
-					<div class="">
-						<h2>Hi. This is Tracer.</h2>
-						<p>black box</p>
-					</div>
-					<div class="">
-						<ul>
-							 <button type="button" onclick = "location.href = 'main.do'" class="btn btn-info btn-sm" id="carbtn">체납차량</button>
-							 <br><button type="button" onclick = "location.href = 'main.do'" class="btn btn-info btn-sm" id="potholebtn">포트홀</button>
-						</ul>
-					</div>
+			<div id="banner" class="box1">
+				<div id="car1">
+					<h2>Hi. This is Tracer.</h2>
+					<p>dfdf</p>
 				</div>
+				<div id="car2">
+					<a href="Login.do">
+						<nav id="dororo1"></nav>
+					</a>
+					<h3 id="dororo">체납차량</h3>
+					<img id="picture" src="resources/images/carnum.jpg">
+				</div>
+
+
+				<!-- <button type="button" onclick="location.href = 'main.do'"
+								class="btn btn-info btn-sm" id="carbtn">
+								체납차량<span><img id="go" src="resources/images/root.png"
+									style="width: 55px;"></span>
+							</button> -->
+
+
+
+
+
 			</div>
 		</div>
-
-
-	</div>
-
 	</div>
 
 	<!-- Scripts -->

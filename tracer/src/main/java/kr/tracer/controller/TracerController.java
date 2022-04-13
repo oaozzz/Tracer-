@@ -19,10 +19,10 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.ResponseBody;
 
-import kr.tracer.entity.Admin;
 import kr.tracer.entity.Car;
-import kr.tracer.entity.Pothole;
-import kr.tracer.mapper.AdminMapper;
+import kr.tracer.entity.Carinfo;
+import kr.tracer.entity.Admin;
+import kr.tracer.mapper.t_AdminMapper;
 import kr.tracer.mapper.CarMapper;
 
 @Controller
@@ -48,7 +48,7 @@ public class TracerController {
 		return "Car";
 	}
 	@RequestMapping("/Pothole.do")
-	public String pothole(Pothole pvo) {
+	public String pothole(Carinfo pvo) {
 		return "Pothole";
 	}
 	
