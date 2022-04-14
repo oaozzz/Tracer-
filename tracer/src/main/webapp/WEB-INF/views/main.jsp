@@ -54,7 +54,7 @@
 					<p>dfdf</p>
 				</div>
 				<div id="car2">
-					<a href="Login.do">
+					<a href="Car.do">
 						<nav id="dororo1"></nav>
 					</a>
 					<h3 id="dororo">체납차량</h3>

@@ -54,7 +54,7 @@
 				<table class="table table-bordered table-hover">
 					<tr id="tr1">
 						<td>체납년수</td>
-						<td><a href="Car.do">체납자명</a></td>
+						<td><a href="CarView.do">체납자명</a></td>
 						<td>체납액</td>
 						<td>체납년수</td>
 						<td>누적신고</td>

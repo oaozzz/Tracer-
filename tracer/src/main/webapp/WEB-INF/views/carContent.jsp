@@ -68,7 +68,7 @@
 						<td colspan="4" align="center"><a
 							href="<c:url value='/boardDelete.do/${vo.idx}'/>"
 							class="btn btn-warning btn-sm" role="button">삭제</a> <a
-							href="<c:url value='/boardList.do'/>" class="btn btn-info btn-sm"
+							href="<c:url value='/Car.do'/>" class="btn btn-info btn-sm"
 							role="button">목록</a></td>
 
 					</tr>

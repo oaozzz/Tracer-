@@ -44,8 +44,14 @@ public class TracerController {
 	
 	@RequestMapping("/Car.do")
 	public String car(Car cvo) {
+		return "carList";
+	}
+	
+	@RequestMapping("/CarView.do")
+	public String carView(Car cvo) {
 		return "carContent";
 	}
+	
 	@RequestMapping("/Pothole.do")
 	public String pothole(Carinfo pvo) {
 		return "Pothole";
