@@ -4,7 +4,30 @@
 	url("https://fonts.googleapis.com/css?family=Oleo+Script:400|Open+Sans:300,300italic,600,600italic,800")
 	;
 
-.cartr {
-	color: coral;
+.con {
+	width: 96%;
 }
 
+.panel-default {
+    border-color: #ddd;
+    width: 93%;
+    float: right;
+    margin-right: 17px;
+    margin-top: 35px;
+}
+
+#header {
+    position: relative;
+    margin-left: 4%;
+    margin-right: 4%;
+    width: 95%;
+}
+
+#tr1{
+    background: #577798;
+    color: white;
+}
+
+td a {
+    color: white;
+}

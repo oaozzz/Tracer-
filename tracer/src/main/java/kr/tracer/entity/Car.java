@@ -2,13 +2,15 @@ package kr.tracer.entity;
 
 public class Car {
 
+	// t_board table
+	
 	private int article_seq;
 	private String mb_id;
-	private String default_name;
-	private String plate_num;
-	private int default_money;
-	private int default_year;
-	private int report_num;
+	private String default_name;  //
+	private String plate_num;  //
+	private int default_money;  // 
+	private int default_year;  //
+	private int report_num;  //
 	private String plate_location;
 	private String admin_location;
 	private String article_file1;

@@ -40,17 +40,17 @@ public class TracerController {
 	@RequestMapping("/Login.do")
 	public String login(Admin avo) {
 		return "Login";
-	
 	}
 	
 	@RequestMapping("/Car.do")
 	public String car(Car cvo) {
-		return "Car";
+		return "carContent";
 	}
 	@RequestMapping("/Pothole.do")
 	public String pothole(Carinfo pvo) {
 		return "Pothole";
 	}
+	
 	
 
 

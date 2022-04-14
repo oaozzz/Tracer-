@@ -6,7 +6,7 @@
     
     
     <welcome-file-list>
-		<welcome-file>/WEB-INF/views/main.jsp</welcome-file>
+		<welcome-file>/WEB-INF/views/carList.jsp</welcome-file>
 	</welcome-file-list>
     
     <resources mapping="/assets/**" location="/resources/assets/" /> 
