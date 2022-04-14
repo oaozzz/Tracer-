@@ -25,7 +25,7 @@ public class main extends AppCompatActivity {
         btn_login = findViewById(R.id.btn_login);
         edt_id = findViewById(R.id.edt_id);
         edt_pw = findViewById(R.id.edt_pw);
-
+        
 
     }
 }

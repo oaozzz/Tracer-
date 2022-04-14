@@ -18,6 +18,7 @@ public class loading extends AppCompatActivity {
             public void run() {
                 Intent intent = new Intent(loading.this, main.class);
                 startActivity(intent);
+
             }
         }, 1000);
     }
